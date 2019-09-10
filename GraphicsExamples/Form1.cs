@@ -24,7 +24,8 @@ namespace GraphicsExamples
             Pen drawPen = new Pen(Color.Red, 5);
             SolidBrush drawBrush = new SolidBrush(Color.Black);
             Font drawFont = new Font("Arial", 16, FontStyle.Bold);
-
+            //This is a test comment
+            
             // Code for drawing all shapes
             g.DrawLine(drawPen, 0, 0, 100, 100);
             g.DrawRectangle(drawPen, 30, 30, 100, 200);
